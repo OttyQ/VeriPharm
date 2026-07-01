@@ -1,0 +1,96 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+
+  <rect width="1600" height="900" fill="#FFFFFF"/>
+
+  <!-- GRID -->
+  <g opacity="0.25">
+    <path d="M120 0 V900" stroke="#E2E8F0"/>
+    <path d="M240 0 V900" stroke="#E2E8F0"/>
+    <path d="M360 0 V900" stroke="#E2E8F0"/>
+    <path d="M480 0 V900" stroke="#E2E8F0"/>
+    <path d="M600 0 V900" stroke="#E2E8F0"/>
+    <path d="M720 0 V900" stroke="#E2E8F0"/>
+    <path d="M840 0 V900" stroke="#E2E8F0"/>
+    <path d="M960 0 V900" stroke="#E2E8F0"/>
+    <path d="M1080 0 V900" stroke="#E2E8F0"/>
+    <path d="M1200 0 V900" stroke="#E2E8F0"/>
+    <path d="M1320 0 V900" stroke="#E2E8F0"/>
+    <path d="M1440 0 V900" stroke="#E2E8F0"/>
+
+    <path d="M0 120 H1600" stroke="#E2E8F0"/>
+    <path d="M0 240 H1600" stroke="#E2E8F0"/>
+    <path d="M0 360 H1600" stroke="#E2E8F0"/>
+    <path d="M0 480 H1600" stroke="#E2E8F0"/>
+    <path d="M0 600 H1600" stroke="#E2E8F0"/>
+    <path d="M0 720 H1600" stroke="#E2E8F0"/>
+    <path d="M0 840 H1600" stroke="#E2E8F0"/>
+  </g>
+
+  <!-- LOGO (FIXED CENTERING) -->
+  <g transform="translate(544 120) scale(1.0)">
+    <!-- 512x512 logo centered in 1600 width:
+         x = 800 - 256 = 544 -->
+
+    <!-- YOUR ORIGINAL SVG -->
+    <g opacity="0.1" transform="translate(12, 18)">
+        <circle cx="256" cy="256" r="110" />
+        <rect x="216" y="146" width="80" height="220" rx="40" transform="rotate(45 256 256)" />
+    </g>
+
+    <g transform="translate(256, 256)">
+        <circle cx="0" cy="0" r="110" fill="#4DB6AC" />
+        <circle cx="0" cy="0" r="85" fill="#80CBC4" />
+        <line x1="-55" y1="0" x2="55" y2="0" stroke="#4DB6AC" stroke-width="8" stroke-linecap="round" />
+    </g>
+
+    <g transform="translate(256, 256) rotate(45)">
+        <path d="M -40 -110 A 40 40 0 0 1 40 -110 L 40 0 L -40 0 Z" fill="#F5F5F5" />
+        <path d="M -40 -110 A 40 40 0 0 1 40 -110 L 40 0 L -40 0 Z" fill="none" stroke="#E0E0E0" stroke-width="2"/>
+
+        <path d="M -40 0 L 40 0 L 40 110 A 40 40 0 0 1 -40 110 Z" fill="#00796B" />
+
+        <rect x="-18" y="-85" width="10" height="170" rx="5" fill="#FFFFFF" opacity="0.4" />
+    </g>
+  </g>
+
+  <!-- TITLE -->
+  <text x="800" y="560"
+      text-anchor="middle"
+      font-family="Intro, Inter, Segoe UI, Arial"
+      font-size="64"
+      font-weight="700"
+      letter-spacing="0">
+
+  <tspan fill="#0F172A">VERI</tspan>
+  <tspan dx="-6" fill="#1cabb0">PHARM</tspan>
+
+</text>
+
+  <!-- SUBTITLE -->
+  <text x="800" y="610"
+        text-anchor="middle"
+        font-family="Inter, Segoe UI, Arial"
+        font-size="24"
+        fill="#475569">
+    Cross-platform medication management and drug interaction analysis platform
+  </text>
+
+  <!-- TECH -->
+  <text x="800" y="690"
+        text-anchor="middle"
+        font-family="Inter, Segoe UI, Arial"
+        font-size="18"
+        fill="#2563EB">
+    .NET 8 • .NET MAUI • Entity Framework Core • MySQL
+  </text>
+
+  <!-- FEATURES -->
+  <text x="800" y="750"
+        text-anchor="middle"
+        font-family="Inter, Segoe UI, Arial"
+        font-size="18"
+        fill="#64748B">
+    Medication Safety • Drug Interaction Analysis • Barcode Scanning • PDF Reports
+  </text>
+
+</svg>
