@@ -24,7 +24,6 @@
   <img src="https://img.shields.io/badge/MAUI-Кроссплатформа-1cabb0" />
   <img src="https://img.shields.io/badge/MySQL-Clever%20Cloud-4479A1?logo=mysql&logoColor=white" />
   <img src="https://img.shields.io/badge/Статус-В%20разработке-orange" />
-  <img src="https://img.shields.io/badge/Лицензия-MIT-green" />
 
 </p>
 
