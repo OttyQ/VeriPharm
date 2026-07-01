@@ -37,11 +37,13 @@ VeriPharm addresses this by combining:
 
 ## 🏗️ Architecture
 
-- .NET 8  
-- .NET MAUI  
-- Entity Framework Core  
-- MySQL  
-- Clean modular architecture  
+VeriPharm follows a modular .NET architecture with a cloud-based database layer:
+
+- .NET 8 (application core)
+- .NET MAUI (cross-platform UI)
+- Entity Framework Core (data access layer)
+- MySQL (cloud-hosted database via Clever Cloud)
+- Modular separation of business logic and UI
 
 ---
 
