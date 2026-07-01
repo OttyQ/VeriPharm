@@ -331,8 +331,28 @@ a {
 
 /* RESPONSIVE */
 @media (max-width: 768px) {
+  .navbar { 
+    grid-template-columns: 1fr auto; 
+    padding: 1rem; 
+  }
+  .nav-links { display: none; }
   .hero h1 { font-size: 2.5rem; }
-  .navbar { padding: 1rem; }
-  .nav-links { display: none; } /* Could add a hamburger menu later */
-  .lang-switch { display: block; margin-left: auto; }
+  .hero-actions { 
+    flex-direction: column; 
+    width: 100%;
+  }
+  .hero-actions .btn {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .section { padding: 3rem 1rem; }
+  .section.dark { padding: 2rem 1rem; margin: 1rem; }
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+  .footer-content {
+    flex-direction: column;
+    gap: 2rem;
+  }
 }
