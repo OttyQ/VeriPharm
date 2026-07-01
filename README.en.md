@@ -1,14 +1,38 @@
-# 🚀 VeriPharm
+# 💊 VeriPharm
 
 <p align="center">
   <img src="assets/banner.png" alt="VeriPharm Banner" />
 </p>
 
+<p align="center">
+  <b>Cross-platform Medication Management & Drug Interaction Analysis Platform</b>
+</p>
+
+<p align="center">
+  A modern healthcare system built with .NET 8 and .NET MAUI
+</p>
+
+<p align="center">
+  <i>Minimal • Scalable • Cloud-enabled • Safety-focused</i>
+</p>
+
 ---
 
-## 🧭 Cross-platform Medication Management & Drug Interaction Analysis Platform
+<p align="center">
 
-**VeriPharm** is a modern healthcare application built with **.NET 8 and .NET MAUI**, designed to improve medication safety, support drug interaction analysis, and provide structured pharmaceutical data management across devices.
+  <img src="https://img.shields.io/badge/.NET-8.0-512BD4?logo=dotnet&logoColor=white" />
+  <img src="https://img.shields.io/badge/MAUI-Cross--Platform-1cabb0" />
+  <img src="https://img.shields.io/badge/MySQL-Clever%20Cloud-4479A1?logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Status-Active%20Development-orange" />
+  <img src="https://img.shields.io/badge/License-MIT-green" />
+
+</p>
+
+---
+
+## 🧭 Overview
+
+**VeriPharm** is a cross-platform healthcare application designed to improve medication safety and support drug interaction analysis through structured pharmaceutical data management.
 
 ---
 
@@ -19,31 +43,29 @@
 - 📦 Barcode-based medication identification  
 - 📄 Automated PDF report generation  
 - 🖥️ Cross-platform support (Android • Windows)  
-- 🧠 Built with modern .NET architecture  
+- ☁️ Cloud-hosted database (Clever Cloud MySQL)  
 
 ---
 
-## 🧩 Problem It Solves
+## 🧩 Problem Statement
 
-Medication errors remain one of the most critical and preventable issues in healthcare systems.
+Medication errors are among the most common and preventable risks in healthcare systems.
 
 VeriPharm addresses this by combining:
 
 - structured medical data handling  
 - automated interaction detection  
-- simple cross-platform UX  
+- consistent cross-platform UX  
 
 ---
 
 ## 🏗️ Architecture
 
-VeriPharm follows a modular .NET architecture with a cloud-based database layer:
-
-- .NET 8 (application core)
-- .NET MAUI (cross-platform UI)
-- Entity Framework Core (data access layer)
-- MySQL (cloud-hosted database via Clever Cloud)
-- Modular separation of business logic and UI
+- .NET 8  
+- .NET MAUI  
+- Entity Framework Core  
+- MySQL (Clever Cloud hosted)  
+- Modular layered architecture  
 
 ---
 
@@ -54,8 +76,8 @@ VeriPharm follows a modular .NET architecture with a cloud-based database layer:
 | UI | .NET MAUI |
 | Backend | .NET 8 |
 | ORM | Entity Framework Core |
-| Database | MySQL |
-| Reports | PDF generation |
+| Database | MySQL (Cloud) |
+| Reports | PDF Generation |
 
 ---
 
@@ -69,22 +91,22 @@ VeriPharm follows a modular .NET architecture with a cloud-based database layer:
 ## 🔍 Core Modules
 
 ### 💊 Medication Safety
-Structured medication and prescription management.
+Structured management of prescriptions and medication data.
 
 ### ⚠️ Drug Interaction Analysis
-Detection of potential medication conflicts.
+Detection of potentially harmful drug combinations.
 
 ### 📦 Barcode Scanning
-Fast medication identification.
+Fast identification of medications via barcode input.
 
 ### 📄 PDF Reports
-Exportable medical documentation.
+Exportable structured medical documentation.
 
 ---
 
 ## 🧠 Design Principles
 
-- Minimal UI  
+- Minimal and functional UI  
 - Data-first architecture  
 - No visual noise  
 - Consistent cross-platform experience  
@@ -93,9 +115,11 @@ Exportable medical documentation.
 
 ## 🚀 Project Status
 
-🚧 Active Development
+<p align="center">
+  <img src="https://img.shields.io/badge/Stage-Active%20Development-orange" />
+</p>
 
-Core system architecture is being developed with scalability and maintainability in mind.
+The system is under active development with focus on scalability, maintainability, and healthcare data safety.
 
 ---
 
