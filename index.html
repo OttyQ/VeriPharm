@@ -2,37 +2,127 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>VeriPharm</title>
-  <link rel="stylesheet" href="site/styles.css">
+  <title>VeriPharm - Medication Management Platform</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="site/styles.css">
 </head>
-
 <body>
 
-  <section style="text-align:center; padding:60px; font-family:Segoe UI, Arial;">
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="site/site_assets/logo.svg" alt="VeriPharm" width="40" height="40">
+      <span class="logo-text">VERI<span class="logo-accent">PHARM</span></span>
+    </div>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#features">Features</a>
+      <a href="#tech">Architecture</a>
+      <a href="#download">Download</a>
+    </div>
+    <a href="site/ru.html" class="lang-switch">RU</a>
+  </nav>
 
-    <h1>VeriPharm</h1>
+  <!-- HERO SECTION -->
+  <header class="hero">
 
-    <p>Cross-platform Medication Management & Drug Interaction Analysis Platform</p>
+    <h1>Medication Safety,<br>Simplified.</h1>
+    <p>A cross-platform medication management and drug interaction analysis platform designed to prevent medical errors and centralize patient data.</p>
+    <div class="hero-actions">
+      <a href="#download" class="btn btn-primary">Download for Windows</a>
+      <a href="#download" class="btn btn-secondary">Get Android APK</a>
+    </div>
+  </header>
 
-    <p>Minimal • Scalable • Cloud-enabled • Safety-focused</p>
-
-    <br>
-
-    <a href="site/en.html">English</a> |
-    <a href="site/ru.html">Русский</a>
-
+  <!-- ABOUT / PROBLEM SECTION -->
+  <section id="about" class="section dark">
+    <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+      <h2 class="section-title" style="margin-bottom: 1.5rem;">Why VeriPharm?</h2>
+      <p style="font-size: 1.2rem; color: var(--text-muted); line-height: 1.8;">
+        Medical errors related to medications—such as incorrect drug combinations, lack of systemic interaction control, and fragmented patient data—pose a critical risk to patient safety. 
+        <br><br>
+        <strong>VeriPharm</strong> solves this by providing a centralized system for analyzing, prescribing, and tracking medications, acting as a reliable digital assistant for doctors and pharmacists.
+      </p>
+    </div>
   </section>
 
+  <!-- FEATURES -->
+  <section id="features" class="section">
+    <h2 class="section-title">Core Features</h2>
+    <div class="features-grid">
+      
+      <!-- Card 1 -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 9h-2V7h-2v5H6v2h2v5h2v-5h2v-2z"/></svg>
+        </div>
+        <h3>Medication Management</h3>
+        <p>Comprehensive storage of drug data, intuitive therapy assignment, and continuous medication tracking.</p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 2L1 21h22M12 6l7.5 13h-15M11 10h2v4h-2M11 16h2v2h-2"/></svg>
+        </div>
+        <h3>Drug Interaction Analysis</h3>
+        <p>Automated compatibility checks to identify potential risks and prevent dangerous drug combinations.</p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24"><path d="M3 4h4v2H5v2H3zm2 14H3v-2h2v2zm14-14h-4v2h2v2h2zm-2 14h2v-2h-2v2zM7 8h2v8H7zm4 0h2v8h-2zm4 0h2v8h-2z"/></svg>
+        </div>
+        <h3>Barcode Scanning</h3>
+        <p>Fast and accurate medication identification via integrated mobile barcode scanning.</p>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+        </div>
+        <h3>PDF Reports</h3>
+        <p>Generate professional, structured medical reports for doctors, pharmacists, and patients.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- TECH STACK -->
+  <section id="tech" class="tech-stack">
+    <h2 class="section-title">Built with Modern Technology</h2>
+    <div class="tech-grid">
+      <div class="tech-tag">.NET 8</div>
+      <div class="tech-tag">.NET MAUI</div>
+      <div class="tech-tag">Entity Framework Core</div>
+      <div class="tech-tag">MySQL</div>
+      <div class="tech-tag">Clever Cloud</div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-col">
+        <h4>VeriPharm</h4>
+        <p>Cross-platform Medication Management.</p>
+        <p>Contact: <a href="mailto:veripharmby@gmail.com">veripharmby@gmail.com</a></p>
+      </div>
+      <div class="footer-col">
+        <h4>Links</h4>
+        <p><a href="https://github.com/OttyQ/VeriPharm">GitHub Repository</a></p>
+        <p><a href="#download">Downloads</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 VeriPharm. All rights reserved.</p>
+      <p class="disclaimer">
+        Disclaimer: This software is an informational tool and is not intended for diagnostic or prescribing use. All medical decisions and treatments must be made by a qualified treating physician.
+      </p>
+    </div>
+  </footer>
+
 </body>
-<header class="topbar">
-  <div class="logo">VeriPharm</div>
-
-  <nav>
-    <a href="../index.html">Home</a>
-    <a href="en.html">EN</a>
-    <a href="ru.html">RU</a>
-  </nav>
-</header>
-
 </html>

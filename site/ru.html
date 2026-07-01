@@ -2,28 +2,127 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>VeriPharm - RU</title>
+  <title>VeriPharm - Платформа управления медикаментами</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
 
-  <section class="hero">
-
-    <img src="site_assets/banner.png" class="banner"/>
-
-    <h1>VeriPharm</h1>
-
-    <p class="subtitle">
-      Кроссплатформенная система управления медикаментозной терапией и анализа взаимодействий лекарств
-    </p>
-
-    <div class="buttons">
-      <a href="../index.html">Главная</a>
-      <a href="en.html">English</a>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="../site/site_assets/logo.svg" alt="VeriPharm" width="40" height="40">
+      <span class="logo-text">VERI<span class="logo-accent">PHARM</span></span>
     </div>
+    <div class="nav-links">
+      <a href="#about">О проекте</a>
+      <a href="#features">Возможности</a>
+      <a href="#tech">Архитектура</a>
+      <a href="#download">Скачать</a>
+    </div>
+    <a href="../index.html" class="lang-switch">EN</a>
+  </nav>
 
+  <!-- HERO SECTION -->
+  <header class="hero">
+
+    <h1>Безопасность медикаментов.<br>Просто и надежно.</h1>
+    <p>Кроссплатформенная система управления терапией и анализа лекарственных взаимодействий, созданная для предотвращения медицинских ошибок.</p>
+    <div class="hero-actions">
+      <a href="#download" class="btn btn-primary">Скачать для Windows</a>
+      <a href="#download" class="btn btn-secondary">Загрузить Android APK</a>
+    </div>
+  </header>
+
+  <!-- ABOUT / PROBLEM SECTION -->
+  <section id="about" class="section dark">
+    <div style="max-width: 800px; margin: 0 auto; text-align: center;">
+      <h2 class="section-title" style="margin-bottom: 1.5rem;">Почему VeriPharm?</h2>
+      <p style="font-size: 1.2rem; color: var(--text-muted); line-height: 1.8;">
+        Медицинские ошибки, связанные с лекарствами — неправильные комбинации препаратов, отсутствие контроля взаимодействий и разрозненные данные пациентов — создают серьезную угрозу здоровью. 
+        <br><br>
+        <strong>VeriPharm</strong> решает эту проблему через централизованную систему анализа и учета медикаментов, выступая надежным цифровым помощником для врача и фармацевта.
+      </p>
+    </div>
   </section>
+
+  <!-- FEATURES -->
+  <section id="features" class="section">
+    <h2 class="section-title">Ключевые возможности</h2>
+    <div class="features-grid">
+      
+      <!-- Card 1 -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 9h-2V7h-2v5H6v2h2v5h2v-5h2v-2z"/></svg>
+        </div>
+        <h3>Управление терапией</h3>
+        <p>Централизованное хранение данных о препаратах, интуитивное назначение и системный учет терапии.</p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24"><path d="M12 2L1 21h22M12 6l7.5 13h-15M11 10h2v4h-2M11 16h2v2h-2"/></svg>
+        </div>
+        <h3>Анализ взаимодействий</h3>
+        <p>Автоматическая проверка совместимости лекарств для выявления потенциальных рисков.</p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24"><path d="M3 4h4v2H5v2H3zm2 14H3v-2h2v2zm14-14h-4v2h2v2h2zm-2 14h2v-2h-2v2zM7 8h2v8H7zm4 0h2v8h-2zm4 0h2v8h-2z"/></svg>
+        </div>
+        <h3>Сканирование штрих-кодов</h3>
+        <p>Быстрая и точная идентификация препаратов с помощью встроенного сканера в мобильном приложении.</p>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg>
+        </div>
+        <h3>Медицинские отчеты (PDF)</h3>
+        <p>Генерация профессиональных, структурированных отчетов для врачей, фармацевтов и пациентов.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- TECH STACK -->
+  <section id="tech" class="tech-stack">
+    <h2 class="section-title">Современный технологический стек</h2>
+    <div class="tech-grid">
+      <div class="tech-tag">.NET 8</div>
+      <div class="tech-tag">.NET MAUI</div>
+      <div class="tech-tag">Entity Framework Core</div>
+      <div class="tech-tag">MySQL</div>
+      <div class="tech-tag">Clever Cloud</div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-col">
+        <h4>VeriPharm</h4>
+        <p>Платформа управления медикаментами.</p>
+        <p>Контакты: <a href="mailto:veripharmby@gmail.com">veripharmby@gmail.com</a></p>
+      </div>
+      <div class="footer-col">
+        <h4>Ссылки</h4>
+        <p><a href="https://github.com/OttyQ/VeriPharm">GitHub Репозиторий</a></p>
+        <p><a href="#download">Загрузки</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 VeriPharm. Все права защищены.</p>
+      <p class="disclaimer">
+        Отказ от ответственности: Данное программное обеспечение носит информационный характер и не предназначено для постановки диагнозов. Окончательное решение о назначении лечения должен принимать исключительно квалифицированный лечащий врач.
+      </p>
+    </div>
+  </footer>
 
 </body>
 </html>
