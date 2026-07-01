@@ -1,7 +1,7 @@
 # 💊 VeriPharm
 
 <p align="center">
-  <img src="branding/banner.png" alt="VeriPharm Banner" />
+  <img src="assets/banner.png" alt="VeriPharm Banner" />
 </p>
 
 <p align="center">
