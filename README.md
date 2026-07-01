@@ -24,7 +24,6 @@
   <img src="https://img.shields.io/badge/MAUI-Cross--Platform-1cabb0" />
   <img src="https://img.shields.io/badge/Database-MySQL-4479A1?logo=mysql&logoColor=white" />
   <img src="https://img.shields.io/badge/Status-In%20Development-orange" />
-  <img src="https://img.shields.io/badge/License-MIT-green" />
 
 </p>
 
@@ -32,8 +31,8 @@
 
 ## 🌐 Documentation
 
-- 🇬🇧 [English Documentation](README.en.md)
-- 🇷🇺 [Русская документация](README.ru.md)
+- 🇬🇧 [English expanded card](README.en.md)
+- 🇷🇺 [Русская развернутая карточка](README.ru.md)
 
 ---
 
