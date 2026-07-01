@@ -34,3 +34,13 @@
 
 - 🇬🇧 [English Documentation](README.en.md)
 - 🇷🇺 [Русская документация](README.ru.md)
+
+---
+
+## 🌐 Project Website & Downloads
+
+Official project website and documentation: **[OttyQ.github.io/VeriPharm](https://OttyQ.github.io/VeriPharm/)**
+
+### 📥 Download Latest Release (v0.1)
+- 🪟 **[Download for Windows (.zip)](https://github.com/OttyQ/VeriPharm/releases/download/v0.1/VeriPharm-Windows-v0.1.zip)** (Self-contained)
+- 📱 **[Download for Android (.apk)](https://github.com/OttyQ/VeriPharm/releases/download/v0.1/VeriPharm-Android-v0.1.apk)**

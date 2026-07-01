@@ -34,6 +34,14 @@
 
 **VeriPharm** — это кроссплатформенная медицинская система, разработанная для повышения безопасности медикаментозной терапии и анализа взаимодействий лекарственных препаратов.
 
+## 🌐 Сайт проекта и Скачивание
+
+Официальный сайт проекта с презентацией и документацией: **[OttyQ.github.io/VeriPharm](https://OttyQ.github.io/VeriPharm/)**
+
+### 📥 Скачать последние версии (v0.1)
+- 🪟 **[Скачать для Windows (.zip)](https://github.com/OttyQ/VeriPharm/releases/download/v0.1/VeriPharm-Windows-v0.1.zip)** (Автономная версия, не требует установки .NET)
+- 📱 **[Скачать для Android (.apk)](https://github.com/OttyQ/VeriPharm/releases/download/v0.1/VeriPharm-Android-v0.1.apk)**
+
 ---
 
 ## ✨ Основные возможности

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>VeriPharm - Документация</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="site_assets/logo.svg" alt="VeriPharm" width="40" height="40">
+      <span class="logo-text">VERI<span class="logo-accent">PHARM</span></span>
+    </div>
+    <div class="nav-links">
+      <a href="ru.html">На главную</a>
+      <a href="https://github.com/OttyQ/VeriPharm" target="_blank">GitHub</a>
+    </div>
+    <a href="../docs.html" class="lang-switch">EN</a>
+  </nav>
+
+  <!-- CONTENT -->
+  <section style="padding-top: 100px; padding-bottom: 60px;">
+    <div style="max-width: 800px; margin: 0 auto; padding: 0 20px; text-align: left; line-height: 1.6;">
+      <h2 style="text-align: center; margin-bottom: 2rem;">Документация VeriPharm</h2>
+
+      <h3>О проекте</h3>
+      <p><b>VeriPharm</b> — это кроссплатформенная медицинская система, разработанная для повышения безопасности медикаментозной терапии и анализа взаимодействий лекарственных препаратов.</p>
+      
+      <h3>Основные возможности</h3>
+      <ul>
+        <li>Учёт медикаментов и назначений</li>
+        <li>Анализ лекарственных взаимодействий</li>
+        <li>Идентификация препаратов по штрих-коду</li>
+        <li>Формирование PDF-отчётов</li>
+        <li>Поддержка Android и Windows</li>
+        <li>Облачная база данных (Clever Cloud MySQL)</li>
+      </ul>
+
+      <div style="margin-top: 3rem; padding: 2rem; background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 8px; text-align: center;">
+        <h3 style="margin-top: 0;">Полная техническая документация</h3>
+        <p style="margin-bottom: 1.5rem; color: var(--text-muted);">Подробное руководство пользователя, инструкции по развертыванию, описание архитектуры и API.</p>
+        <a href="https://github.com/OttyQ/VeriPharm/blob/main/docs/User_Manual_RU.md" target="_blank" class="btn btn-primary">Читать Руководство (на GitHub)</a>
+      </div>
+
+      <h3>Архитектура</h3>
+      <p>Система построена с использованием современных технологий:</p>
+      <ul>
+        <li><b>.NET 8</b> и <b>.NET MAUI</b> для кроссплатформенности</li>
+        <li><b>Entity Framework Core</b> для работы с данными</li>
+        <li><b>MySQL</b> (облачное хранение) для синхронизации</li>
+      </ul>
+
+      <h3>Скачивание (v0.1)</h3>
+      <p>Вы можете загрузить последние версии приложения напрямую с нашего репозитория GitHub:</p>
+      <div style="margin-top: 1rem;">
+        <a href="https://github.com/OttyQ/VeriPharm/releases/download/v0.1/VeriPharm-Windows-v0.1.zip" class="btn btn-primary" style="margin-right: 1rem;">Windows (.zip)</a>
+        <a href="https://github.com/OttyQ/VeriPharm/releases/download/v0.1/VeriPharm-Android-v0.1.apk" class="btn btn-secondary">Android (.apk)</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-col">
+        <h3>VeriPharm</h3>
+        <p>Медикаментозная безопасность и анализ взаимодействий.</p>
+      </div>
+      <div class="footer-col">
+        <h3>Ссылки</h3>
+        <p><a href="https://github.com/OttyQ/VeriPharm">GitHub</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 VeriPharm. MIT License.
+    </div>
+  </footer>
+</body>
+</html>

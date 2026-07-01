@@ -34,6 +34,14 @@
 
 **VeriPharm** is a cross-platform healthcare application designed to improve medication safety and support drug interaction analysis through structured pharmaceutical data management.
 
+## 🌐 Project Website & Downloads
+
+Official project website and full documentation: **[OttyQ.github.io/VeriPharm](https://OttyQ.github.io/VeriPharm/)**
+
+### 📥 Download Latest Release (v0.1)
+- 🪟 **[Download for Windows (.zip)](https://github.com/OttyQ/VeriPharm/releases/download/v0.1/VeriPharm-Windows-v0.1.zip)** (Self-contained)
+- 📱 **[Download for Android (.apk)](https://github.com/OttyQ/VeriPharm/releases/download/v0.1/VeriPharm-Android-v0.1.apk)**
+
 ---
 
 ## ✨ Key Features
